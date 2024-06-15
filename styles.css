@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* hero start */
+.hero{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.hero-head{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 600 !important;
+    color: black;
+    margin-top: 30px !important;
+}
+
+.online-tf{
+    background-color: #4EB867;
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 10px !important;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px !important;
+}
+
+.mail-in{
+    background-color: transparent;
+    width: 150px;
+    height: 42px;
+    border: 1px solid #4EB867;
+    border-radius: 10px !important;
+    color: #4EB867 !important;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px !important;
+}
+
+.donation-method{
+    margin-top: 30px;
+}
+
+.donation-method button{
+    margin:  0 6px;
+}
+
+.submit-button{
+    margin-top: 70px !important;
+}
+
+.submit-btn{
+    background-color: #4EB867;
+    width: 384px;
+    height: 63px;
+    border: none;
+    border-radius: 12px !important;
+    color: white;
+    font-family: Space Grotesk !important;
+    font-size: 24px !important; 
+}
+
+/* styling the form */
+
+.form-info{
+    margin-top: 60px !important;
+}
+
+.form-label{
+  font-family: Plus Jakarta Sans;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+}
+
+.form-control{
+    height: 60px !important;
+    border: 2px solid black !important;
+    border-radius: 20px !important; 
+}
+
+.form-control-name{
+    width: 900px !important;
+    height: 60px !important;
+    border: 2px solid black !important;
+    border-radius: 20px !important; 
+}
+
+.form-date{
+    width: 350px !important;
+}
+
+.form-date-ii{
+    width: 460px !important;
+}
+
+.optional{
+    text-align: center;
+    color: #4EB867 !important;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+}
+
+.form-control-donation{
+    width: 700px !important;
+    height: 60px !important;
+    border: 2px solid black !important;
+    border-radius: 20px !important; 
+}
+
+.form-control-donation::placeholder{
+    padding: 10px !important;
+}
+
+@media screen and (max-width: 768px){
+    .hero-head{
+       font-size:23px !important;
+       font-weight: 700 !important;
+    }
+
+    .form-info{
+        margin-top: 20px !important;
+    }
+
+    .form-control{
+        width: 100% !important;
+    }
+
+    .form-control-donation{
+        width: 100% !important;
+    }
+
+    .form-label{
+        font-family: Plus Jakarta Sans;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+
+    .optional{
+        text-align: right;
+    }
+
+    .online-tf{
+        background-color: #4EB867;
+        width: 150px;
+        height: 42px;
+        border: none;
+        border-radius: 10px !important;
+        color: white;
+        font-family: Plus Jakarta Sans;
+        font-size: 10px !important;
+    }
+
+    .mail-in{
+        background-color: transparent;
+        width: 150px;
+        height: 42px;
+        border: 1px solid #4EB867;
+        border-radius: 10px !important;
+        color: #4EB867 !important;
+        font-family: Plus Jakarta Sans;
+        font-size: 12px !important;
+    }
+
+    .submit-btn{
+        background-color: #4EB867;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 12px !important;
+        color: white;
+        font-family: Space Grotesk !important;
+        font-size: 20px !important; 
+    }
+}
+/* hero end */
