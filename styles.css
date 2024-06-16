@@ -118,6 +118,10 @@ body{
     padding: 10px !important;
 }
 
+.form-control:focus{
+    box-shadow: none;
+}
+
 @media screen and (max-width: 768px){
     .hero-head{
        font-size:23px !important;
